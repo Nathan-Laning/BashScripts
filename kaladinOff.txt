@@ -1,0 +1,2 @@
+#!/bin/bash
+scp -r /Users/home/Documents/Scripts/Scripts/ nlaning@squall.cems.uvm.edu:

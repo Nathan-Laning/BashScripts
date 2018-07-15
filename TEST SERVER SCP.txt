@@ -1,0 +1,42 @@
+#!/bin/bash
+## File Created 7/15/18
+## Nathan Laning
+
+###### VARS ######
+LOCAL_PATH;
+SERVER_PATH;
+USERNAME;
+
+###### Start ######
+echo date
+echo ~~~~ SCP Script ~~~~
+
+###### Initiate ######
+if [ ! -f /data.txt]
+then
+FileInitiate
+fi
+
+filename="$1"
+while read -r line
+do
+    name="$line"
+    echo "Name read from file - $name"
+done < "$filename"
+
+
+if
+
+###### Functions ######
+FileInitiate(){
+echo Initial setup initiated;
+echo Please provide a username:
+read=USERNAME
+echo Please Provide the local path to move files from
+
+
+}
+
+SCPInitiate(){
+scp -r /Users/home/Documents/Scripts/Scripts/ nlaning@kaladin.cems.uvm.edu:
+}

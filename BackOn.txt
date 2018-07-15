@@ -1,0 +1,2 @@
+#!/bin/bash
+scp -r nlaning@kaladin.cems.uvm.edu: /Users/home/Documents/Scripts/Scripts/ 
